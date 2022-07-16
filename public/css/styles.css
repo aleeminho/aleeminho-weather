@@ -1,0 +1,104 @@
+body {
+  background-color: black;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title-title {
+  color: #FDD000;
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+
+.paragraph-title {
+  color: white;
+  font-size: 1.1rem;
+}
+
+.form input {
+  background-color: black;
+}
+
+.form-control:focus {
+  border-color: #FDD000;
+  background-color: black;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.form-control {
+  background-color: black;
+  border-color: #FDD000;
+  color: white;
+}
+
+.btn {
+  border-color: #FDD000;
+  color: #FDD000;
+}
+
+.btn:hover {
+  background-color: #FDD000;
+  color: black;
+  border-color: #FDD000;
+}
+
+.form-control::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #FDD000;
+  opacity: 1;
+}
+
+input {
+  color: white;
+}
+
+.form-control:focus {
+  color: white;
+}
+
+form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.data {
+  border: 1px solid #FDD000;
+  border-radius: 0.3rem;
+  width: 80%;
+  margin: 0 auto;
+  font-style: medium;
+  color: white;
+}
+
+.data p {
+  margin-left: 0.7rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.data span {
+  color: #FDD000;
+}
+
+@media (max-width: 768px) {
+  .title-title {
+    font-size: 2rem;
+  }
+
+  .paragraph-title {
+    font-size: 0.8rem;
+  }
+
+  .btn {
+    font-size: 0.7rem;
+  }
+
+  .form-control {
+    font-size: 0.7rem;
+  }
+
+  .data p {
+    font-size: 0.7rem;
+  }
+}
