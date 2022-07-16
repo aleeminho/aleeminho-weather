@@ -2,7 +2,7 @@ $(() => {
   const jsonData = {};
   const fetchData = async (city) => {
     try {
-      const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=e0156a8e43019007a4f932d9723ea1f1&units=metric`);
+      const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=rahasia&units=metric`);
       const data = await response.json();
       return data;
     } catch (error) {
